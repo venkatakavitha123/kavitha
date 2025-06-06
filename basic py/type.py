@@ -1,0 +1,8 @@
+name = input("name:")
+age = int(input("age:"))
+marks = float(input("marks:"))
+alive = bool(input("alive:"))
+print(f"my name is {name} iam {age} years old")
+print(f"computer network I got a {marks} its {alive}")
+print(type(age))
+print(type(name))

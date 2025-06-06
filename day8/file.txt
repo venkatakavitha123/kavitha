@@ -1,0 +1,11 @@
+deposit:500
+withdraw:80
+Account:Nonebankaccount:<class '__main__.Bank'>deposit:500
+withdraw:150
+deposit:100
+Account:Nonebankaccount:<class '__main__.Bank'>deposit:500
+withdraw:150
+deposit:100
+Account:Nonebankaccount:<class '__main__.Bank'>deposit:500
+withdraw:150
+deposit:100
