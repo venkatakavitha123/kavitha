@@ -1,0 +1,141 @@
+body{
+    background-color:antiquewhite
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+
+header{
+    padding:10px;
+    background-color:darkkhaki;
+    border:1px solid brown;
+    margin-bottom: 50px;
+    position: sticky;
+    top:0px;
+}
+
+
+.iplteam{
+    border: 1px solid green;
+    margin:0px 0px 20px 0px;
+    padding: 15px;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px black;
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-color: purple;
+    transition: background-color 1 ease;
+    
+    }
+
+
+
+.iplteam:hover{
+    background-color: aquamarine;
+    width:30%
+}
+
+
+#CSK{
+    color:yellow;
+}
+#RCB{
+    color:brown;
+}
+#MI{
+    color:skyblue;
+}
+
+#iplteam-container{
+    display: flex;
+    border: 1px solid blue;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+}
+
+.container{
+    display:flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin:10px auto;
+    border: 1px solid white;
+    position: relative;
+    /*animation: iplAnimate 3s infinite; */
+    /*animation: entrance 3s infinite; */
+    /*animation: entrance 4s 1 2s forwards; */
+    animation: entrance 4s 1 2s alternate ease-in-out;
+
+
+}
+
+
+.container:hover{
+    /*animation: run 3s infinite; */
+    /*animation: run 3s infinite alternate; */
+  /*  animation: run 3s infinite alternate-reverse; */
+    animation: run 3s infinite alternate;
+    
+
+}
+@keyframes entrance {
+    
+    0%{
+        left:0px;
+    }
+  25%{
+        left: 100px;
+    }
+    50%{
+        left:0px;
+    }
+    75%{
+        left:-100px;
+    }
+    100%{
+        left:0px
+    }
+}
+
+
+
+
+/* @keyframes iplAnimate {
+    0%{
+        left:0px;
+    }
+  25%{
+        left: 100px;
+    }
+    50%{
+        left:0px;
+    }
+    75%{
+        left:-100px;
+    }
+    100%{
+        left:0px
+    }
+} */
+
+
+.points-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+
+
+#points{
+    grid-area:1/1/2/2;
+    background-color: yellowgreen;
+}
+

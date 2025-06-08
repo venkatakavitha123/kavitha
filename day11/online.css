@@ -1,0 +1,25 @@
+body{
+    background-color: darkolivegreen;
+}
+.online{
+    background-color: pink;
+    border : 5px solid yellowgreen;
+    margin:4px 4px 30px 4px;
+    padding: 15px ;
+    font-size:15px;
+    width:100px;
+}
+
+
+ #Myntra{
+            color :blueviolet;
+        }
+ #Ajio{
+            color : greenyellow;
+        }
+ #Flip{
+            color:black;
+        }
+
+    
+
