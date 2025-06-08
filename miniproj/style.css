@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: burlywood;
+    color: brown;
+}
+
+.mobile{
+    background-color: darksalmon;
+    color: cornsilk;
+    padding:5px;
+    position:sticky;
+    top:0;
+}
+
+.mobile a{
+    color: blue;
+    margin: 0 10px;
+    animation:slideIn 2s ease;
+    text-decoration:none;
+}
+
+.main{
+    background-color:pink;
+    color: antiquewhite;
+    padding:60px;
+    text-align:center;
+}
+
+.touch{
+    animation:slideIn 3s ease;
+}
+
+@keyframes slideIn{
+    0% {transform:translateY(-50px); opacity: 0;}
+        100% {transform: translateY(0); opacity: 1; }
+
+    }
+
+.cards-section{
+    background-color:pink;
+    color: antiquewhite;
+    padding:60px;
+    text-align:center;
+    transition:transform 0.3s;
+    display:flex;
+    justify-content:center;
+    gap:5px;
+
+
+}
+
+.card{
+    background-color: beige;
+    border:1px solid skyblue;
+    border-radius: 8px;
+    width: 250px;
+    padding:20px;
+    transition:transform 0.3s;
+
+}
+.card:hover{
+    transform: scale(1.05);
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+    padding:40px;
+}
+grid-items{
+    background-color: darkgrey;
+    border:1px solid palevioletred;
+    text-align: center;
+    padding: 10px;
+    border-radius:10px;
+}
+
+.table section{
+    padding:20px;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border:1px solid black;
+
+}
+th, td{
+    padding: 10px;
+    text-align:center;
+}
+
+footer{
+    background: scroll;
+    color: azure;
+    text-align: center;
+    padding:20px;
+    width:100%;
+    bottom: 0;
+}
