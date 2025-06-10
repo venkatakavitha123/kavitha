@@ -1,0 +1,15 @@
+list1=[1,2,3,4,5,3,6]
+print("list1:",list1)
+list1.append(9)
+print("append:",list1)
+list1.remove(3)
+print("remove:",list1)
+list1.insert(9,3)
+print("insert:",list1)
+list1.pop()
+print("pop:",list1)
+list2=[0,1,7]
+list1.extend(list2)
+print("extend:",list1)
+list1.clear()
+print("clear:",list1)
