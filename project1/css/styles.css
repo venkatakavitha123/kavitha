@@ -1,0 +1,129 @@
+body{
+    margin:0%;
+    font-family: Arial,sans-serif;
+    background:wheat;
+    color: olive
+}
+.navbar{
+    background: pink;
+    color: chocolate;
+    padding: 10px;
+    position:sticky;
+    top:0;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.navbar a{
+    color:dimgrey;
+    margin:0 10px;
+    text-decoration:solid;
+}
+.hero{
+    background-color:blanchedalmond;
+    color:brown;
+    padding: 20px;
+    text-align:center;
+    border:solid 1px black;
+}
+
+.animation{
+    animation-duration:calc();
+}
+
+@keyframes slidIn{
+    0%{
+        opacity:0;
+        transform: translateX(-20px);
+    }
+    100%{
+        opacity:50px;
+        transform:translate(0);
+    }
+}
+
+.card-section{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    padding:20px;
+    width: 90%;
+  
+
+}
+
+.card{
+    /* display: flex; */
+    background: whitesmoke;
+    border:2px solid;
+    border-radius: 8px;
+    width: 300px;
+    padding:40px;
+    transition: transform 3s;
+    text-align:center;
+    border-color:green
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.grid-gallery{
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+    padding:40px;
+    width: 50%;
+    display: flex;
+    
+}
+ 
+.grid-item {
+
+  background: white;
+  border: 3px solid;
+  padding: 10px;
+  border-radius: 5px;
+  width:250px;
+  height: 180px;
+  display:flex;
+  align-items:baseline
+
+  
+}
+
+.table-section {
+  padding: 20px;
+}
+.table-section, th, td{
+  color: black;
+  text-align: center;
+}
+
+
+table {
+  border-color:black;
+  border-width:45px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+    border-color:brown;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  background: burlywood;
+  color:brown;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
