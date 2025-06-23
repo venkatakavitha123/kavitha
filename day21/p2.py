@@ -13,3 +13,6 @@ while t > 0:
     else:
         print("NO COUPON")
         t -= 1
+        
+        # t means number of test cases
+        

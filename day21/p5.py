@@ -10,4 +10,6 @@ while t > 0:
     print(c)
     t -= 1
         
+        
+#Cost of Groceries
             
